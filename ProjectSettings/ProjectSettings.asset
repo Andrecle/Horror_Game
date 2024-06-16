@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 0fdd3d50c075b004c91b47c7ac10b598
+  productGUID: 3b7ea337be29cfe4eb5acfd69dc96945
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Horror Game
+  productName: Horror Game1
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -673,14 +673,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Horror Game
+  metroPackageName: Horror Game1
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Horror Game
+  metroApplicationDescription: Horror Game1
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -749,10 +749,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 8fe61d9f-779d-48d6-8c20-b38cd3d1eb74
+  cloudProjectId: b7ebb705-b91d-4125-b984-0b7492838e00
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Horror Game
+  projectName: Horror Game1
   organizationId: andrecle
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
