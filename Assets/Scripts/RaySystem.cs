@@ -22,7 +22,7 @@ public class RaySystem : MonoBehaviour
 
             if (hit.collider.tag == "Door")
             {
-                info.text = "ЛКМ чтобы открыть или закрыть дверь";
+
 
                 if (Input.GetKeyDown(KeyCode.Mouse0))
                 {
@@ -32,9 +32,19 @@ public class RaySystem : MonoBehaviour
             }
             if (hit.collider.tag == "lighter")
             {
-                info.text = "Зажигалка";
+                info.text = "(E) чтобы взять";
 
             }
+            if (hit.collider.tag == "Door1")
+            {
+                info.text = "ЛКМ чтобы открыть или закрыть дверь";
+            }
+                            if (Input.GetKeyDown(KeyCode.Mouse0))
+                {
+                    Door door = hit.collider.GetComponent<Door>();
+                    door.Using();
+                }
+
         }
         else
         {
